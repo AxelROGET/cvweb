@@ -1,0 +1,44 @@
+#header {
+    background-color: black;
+    color: white;
+}
+
+#page {
+    display: flex;
+
+}
+ 
+#left-div {
+    background-color: lightgray;
+    width: 15%;
+    min-width: 100px;
+}
+
+#right-div {
+    background-color: white;
+    width: 85%;
+    border: 1px solid black;
+}
+.section {
+    padding-left: 10px;
+}
+ul {
+    padding-left: 20px;
+}
+ol {
+    padding-left: 0px;
+}
+
+#autre ol {
+    padding-bottom: 20px;
+}
+
+p, h1, h2, ol {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#nom {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    
+}
