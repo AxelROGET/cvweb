@@ -9,6 +9,7 @@ body {
     margin:0px;
     padding: 0px;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
 }
@@ -41,14 +42,20 @@ body {
     background-color: #f2f2f2;
     width: 15%;
     min-width: 160px;
+    padding: 30px;
+}
 
+#left-div h2 {
+    margin-left: 30px;
+    margin-top: 50px
 }
 
 #right-div {
     background-color: white;
     width: 85%;
-    border: 1px solid black;
     min-width: 600px;
+    box-shadow: 7px 7px 5px 5px black;
+
 }
 .section {
     padding-left: 10px;
