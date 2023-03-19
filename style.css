@@ -45,6 +45,21 @@ body {
     padding: 30px;
 }
 
+#left-div p {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 10px;
+    width: 40px;
+}
+
+#certif {
+    height: 31;
+    width: 88;
+}
+
 #left-div h2 {
     margin-left: 30px;
     margin-top: 50px
@@ -57,6 +72,11 @@ body {
     box-shadow: 7px 7px 5px 5px black;
 
 }
+
+#right-div h2 {
+    color: #f79646;
+}
+
 .section {
     padding-left: 10px;
 }
@@ -71,7 +91,7 @@ ol {
     padding-bottom: 20px;
 }
 
-p, h1, h2, li {
+p, h1, h2, li, label {
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -79,4 +99,9 @@ p, h1, h2, li {
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
     
+}
+
+object {
+    width: 10;
+    height: 10;
 }
